@@ -1,0 +1,114 @@
+.RegisterPage_container {
+    position: relative;
+}
+
+.RegisterPage_background {
+    width: 100%;
+    min-height: calc(100vh - 67px);
+    margin: 0 auto;
+    background-color: #f0f8ff;
+}
+
+.RegisterPage_flex_row {
+    display: flex;
+    justify-content: center;
+}
+
+.RegisterPage_column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+.RegisterPage_form_column {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(180, 180, 180);
+    margin: 10px 0;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.RegisterPage_subtitle {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #a3a3a3;
+    line-height: 100%;
+}
+
+.RegisterPage_error_text {
+    color: #f37c7c;
+    font-weight: 700;
+    margin: 0;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.RegisterPage_form_box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.RegisterPage_label {
+    font-size: 15px;
+    color: gray;
+    font-weight: 700;
+}
+
+.RegisterPage_input {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    
+}
+
+.RegisterPage_input_password_name {
+    line-height: 135%;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin-bottom: 5px;
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    color: #555;
+    padding: 8px;
+}
+
+.RegisterPage_input_password {
+    border: none;
+    width: 75%;
+    outline: none;
+}
+
+.RegisterPage_label_password {
+    position: relative;
+}
+
+.RegisterPage_input:focus {
+    border: 1px solid rgba(104, 104, 104, 0.8);
+}
+
+.RegisterPage_input_eye {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    cursor: pointer;
+}

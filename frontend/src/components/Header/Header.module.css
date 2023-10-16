@@ -1,0 +1,56 @@
+.Header {
+  background-color: #258ce0;
+  padding: 1rem;
+}
+
+.Header_container {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header__link {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.Header__username {
+  margin-right: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.Header__username_name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Header__link:last-child {
+  margin-right: 0;
+}
+
+.Header__link:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.Header__logout {
+    background: red;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.Header__link:active {
+    text-decoration: underline;
+}

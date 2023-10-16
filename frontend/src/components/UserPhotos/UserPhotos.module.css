@@ -1,0 +1,16 @@
+.UserPhotos__container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.UserPhotos__title_button {
+    text-align: center;
+    padding: 10px;
+}
+
+.UserPhotos {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+}

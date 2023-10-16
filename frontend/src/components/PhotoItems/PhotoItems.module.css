@@ -1,0 +1,6 @@
+.PhotoItems {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
